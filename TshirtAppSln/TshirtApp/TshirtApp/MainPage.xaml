@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TshirtApp.MainPage"
+             BackgroundImageSource="TshirtPreg">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Vinqi's Tshirt" 
+           HorizontalOptions="Center"
+           TextColor="Aqua"
+           FontSize="50"
+           FontAttributes="None"
+           VerticalOptions="Center" />
+
+        <Label Text="Pregnant or not we've got you"
+               FontSize="25"
+               TextColor="Aqua"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Button Text="Place order"
+                Font="Large"
+                BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="OnButtonClicked"/>
+    </StackLayout>
+
+</ContentPage>

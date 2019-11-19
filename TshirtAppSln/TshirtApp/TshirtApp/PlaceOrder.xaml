@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TshirtApp.PlaceOrder">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="PLACE YOUR ORDER"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="2"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,20,0,0"/>
+                
+                <Entry Placeholder="Name" 
+                       Grid.Row="1" 
+                       Grid.Column="0"/>
+
+                <Entry Placeholder="Surname" 
+                       Grid.Row="1" 
+                       Grid.Column="1"/>
+
+                <Entry Placeholder="Gender" 
+                       Grid.Row="2" 
+                       Grid.Column="0"/>
+                
+                <Entry Placeholder="Tshirt size" 
+                       Grid.Row="2" 
+                       Grid.Column="1"/>
+                
+                <Entry Placeholder="Tshirt color" 
+                       Grid.Row="3" 
+                       Grid.Column="0"/>
+                
+                <DatePicker
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    TextColor="Aqua"/>
+
+                <Entry Placeholder="Shipping address" 
+                       Grid.Row="4" 
+                       Grid.Column="0"/>
+            </Grid>
+            
+            <Button Text="SAVE"
+                Font="Large"
+                BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Save_Clicked"/>
+            
+            <Button Text="CANCEL"
+                Font="Large"
+                BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Cancel_Clicked"/>
+    
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
