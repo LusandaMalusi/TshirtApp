@@ -7,9 +7,24 @@
              x:Class="TshirtApp.OrderList">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Nantsi order list yakho"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView Margin="20" ItemsSource="{Binding Orders}" HasUnevenRows="True" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="10" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                <Label Text="Your Order" FontSize="Large" TextColor="Aqua"/> 
+                                <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding Surname}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="{Binding Gender}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding Shippingadress}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="{Binding Datetime}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding Tshirtsize}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="{Binding Tshirtcolor}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

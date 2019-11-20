@@ -16,7 +16,7 @@ namespace TshirtApp
         public string Gender { get; set; }
         public string Tshirtcolor { get; set; }
         public string Tshirtsize { get; set; }
-        public string Datetime { get; set; }
+        public DateTime Datetime { get; set; }
         public string Shippingadress { get; set; }
 
     }

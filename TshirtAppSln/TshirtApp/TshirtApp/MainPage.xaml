@@ -28,6 +28,14 @@
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 Clicked="OnButtonClicked"/>
+        
+        <Button Text="View Order"
+                    Font="Large"
+                    BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Button_Clicked"/>
+
     </StackLayout>
 
 </ContentPage>

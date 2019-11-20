@@ -28,35 +28,37 @@
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
                        Margin="0,20,0,0"/>
-                
-                <Entry Placeholder="Name" 
+
+                <Entry Placeholder="Name" Text="{Binding Name}"
                        Grid.Row="1" 
                        Grid.Column="0"/>
 
-                <Entry Placeholder="Surname" 
+                <Entry Placeholder="Surname" Text="{Binding Surname}"
                        Grid.Row="1" 
                        Grid.Column="1"/>
 
-                <Entry Placeholder="Gender" 
+                <Entry Placeholder="Gender"  Text="{Binding Gender}"
                        Grid.Row="2" 
                        Grid.Column="0"/>
-                
-                <Entry Placeholder="Tshirt size" 
+
+                <Entry Placeholder="Tshirt size" Text="{Binding Tshirtsize}"
                        Grid.Row="2" 
                        Grid.Column="1"/>
-                
-                <Entry Placeholder="Tshirt color" 
+
+                <Entry Placeholder="Tshirt color" Text="{Binding Tshirtcolor}"
                        Grid.Row="3" 
+                       Grid.Column="0"/>
+
+                <Entry Placeholder="Shipping address" Text="{Binding Shippingadress}"
+                       Grid.Row="4" 
                        Grid.Column="0"/>
                 
                 <DatePicker
-                    Grid.Row="3"
+                    Grid.Row="3" Date="{Binding Datetime}"
                     Grid.Column="1"
                     TextColor="Aqua"/>
 
-                <Entry Placeholder="Shipping address" 
-                       Grid.Row="4" 
-                       Grid.Column="0"/>
+               
             </Grid>
             
             <Button Text="SAVE"
@@ -64,7 +66,9 @@
                 BorderWidth="1"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
-                Clicked="Save_Clicked"/>
+                Clicked="OnSaveClicked"/>
+            
+            
             
             <Button Text="CANCEL"
                 Font="Large"

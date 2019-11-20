@@ -9,7 +9,7 @@
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems> 
-    <ListView x:Name="listView" Margin="20" ItemSelected="OnListItemSelected">
+    <ListView x:Name="listView" Margin="20" ItemSelected="OnListItemSelected" HasUnevenRows="True">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
