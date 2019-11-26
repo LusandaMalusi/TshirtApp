@@ -528,3 +528,5 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.And
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Threading.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

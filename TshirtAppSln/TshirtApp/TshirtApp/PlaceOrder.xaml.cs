@@ -14,6 +14,7 @@ namespace TshirtApp
     public partial class PlaceOrder : ContentPage
     {
         public List<Tshirt> TshirtOrder { get; set; }
+        
 
         public PlaceOrder()
         {
@@ -38,7 +39,7 @@ namespace TshirtApp
             var tshirt = (Tshirt)BindingContext;
 
             await App.Database.SaveItemAsync(tshirt);
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new OrderList());
         }
     }
 }

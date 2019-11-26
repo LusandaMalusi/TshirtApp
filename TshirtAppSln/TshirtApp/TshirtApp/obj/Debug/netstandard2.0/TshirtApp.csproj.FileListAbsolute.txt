@@ -10,7 +10,6 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\bin
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\bin\Debug\netstandard2.0\ref\TshirtApp.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\bin\Debug\netstandard2.0\TshirtApp.pdb
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\PlaceOrder.xaml.g.cs
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\TshirtApp.csprojAssemblyReference.cache
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\OrderList.xaml.g.cs
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\Views\TshirtItemPage.xaml.g.cs
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\Views\TshirtListPage.xaml.g.cs

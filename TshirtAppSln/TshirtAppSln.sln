@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TshirtApp.Android", "Tshirt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TshirtApp.iOS", "TshirtApp\TshirtApp.iOS\TshirtApp.iOS.csproj", "{F9BCC47C-04A7-40E1-A203-82486A94258B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TshirtApp", "TshirtApp\TshirtApp\TshirtApp.csproj", "{6FE7C8B5-16FE-4D3A-A9D2-FE95C7D1C3B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TshirtApp", "TshirtApp\TshirtApp\TshirtApp.csproj", "{6FE7C8B5-16FE-4D3A-A9D2-FE95C7D1C3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TshirtAPI", "TshirtAPI\TshirtAPI.csproj", "{127360A9-2B65-42E4-A950-C444AE9CFF44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{6FE7C8B5-16FE-4D3A-A9D2-FE95C7D1C3B7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{6FE7C8B5-16FE-4D3A-A9D2-FE95C7D1C3B7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{6FE7C8B5-16FE-4D3A-A9D2-FE95C7D1C3B7}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|iPhone.Build.0 = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{127360A9-2B65-42E4-A950-C444AE9CFF44}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

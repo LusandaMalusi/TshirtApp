@@ -3,6 +3,7 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.And
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\Java.Interop.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\SQLite-net.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
@@ -63,6 +64,13 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.And
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\netstandard.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Data.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Transactions.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Web.Services.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Collections.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Linq.Expressions.dll
@@ -74,10 +82,3 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.And
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Globalization.dll
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\Mono.Security.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\netstandard.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Data.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Transactions.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.IO.Compression.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
-C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp.Android\obj\Debug\90\android\assets\System.Web.Services.dll
