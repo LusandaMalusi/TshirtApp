@@ -80,12 +80,18 @@ namespace TshirtAPI.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
-        public async Task<ActionResult<Products>> PostProducts(Products products)
-        {
-            _context.Productss.Add(products);
-            await _context.SaveChangesAsync();
+        public async Task<ActionResult<Products>> PostProducts(Products[] products)
 
-            return CreatedAtAction(nameof(GetProducts), new { id = products.ID }, products);
+        {
+            foreach (var product in products)
+            {
+                _context.Productss.Add(product);
+            }
+            
+            await _context.SaveChangesAsync();
+            return Ok();
+
+            //return CreatedAtAction(nameof(GetProducts), new { id = products.ID }, products);
         }
 
         // DELETE: api/Products/5

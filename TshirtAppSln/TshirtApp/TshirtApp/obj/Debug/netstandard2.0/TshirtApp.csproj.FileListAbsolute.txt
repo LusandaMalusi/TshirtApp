@@ -14,3 +14,4 @@ C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\Views\TshirtItemPage.xaml.g.cs
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\Views\TshirtListPage.xaml.g.cs
 C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Lusanda\Documents\GitHub\TshirtApp\TshirtAppSln\TshirtApp\TshirtApp\obj\Debug\netstandard2.0\TshirtApp.csprojAssemblyReference.cache

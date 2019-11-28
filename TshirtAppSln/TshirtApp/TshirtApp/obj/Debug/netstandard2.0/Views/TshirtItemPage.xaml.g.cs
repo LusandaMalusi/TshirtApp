@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TshirtApp.Views.TshirtItemPage.xaml", "Views/TshirtItemPage.xaml", typeof(global::TshirtApp.TshirtItemPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TshirtApp.Views.TshirtItemPage.xaml", "Views/TshirtItemPage.xaml", typeof(global::TshirtApp.Views.TshirtItemPage))]
 
-namespace TshirtApp {
+namespace TshirtApp.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\TshirtItemPage.xaml")]

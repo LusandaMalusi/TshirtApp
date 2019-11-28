@@ -14,8 +14,21 @@ namespace TshirtApp.Views
             var surnameEntry = new Entry();
             surnameEntry.SetBinding(Entry.TextProperty, "Surname");
 
-            var gender = new Switch();
-            gender.SetBinding(Switch.IsToggledProperty, "gender");
+            var genderEntry = new Entry();
+            genderEntry.SetBinding(Entry.TextProperty, "gender");
+
+            var TshirtcolorEntry = new Entry();
+            TshirtcolorEntry.SetBinding(Entry.TextProperty, "Tshirtcolor");
+
+            var TshirtsizeEntry = new Entry();
+            TshirtsizeEntry.SetBinding(Entry.TextProperty, " Tshirtsize ");
+
+            var DateTimeEntry = new Entry();
+            DateTimeEntry.SetBinding(Entry.TextProperty, "DateTime");
+
+            var ShippingadressEntry = new Entry();
+            ShippingadressEntry.SetBinding(Entry.TextProperty, "Shippingadress");
+
 
             var saveButton = new Button { Text = "Save" };
             saveButton.Clicked += async (sender, e) =>

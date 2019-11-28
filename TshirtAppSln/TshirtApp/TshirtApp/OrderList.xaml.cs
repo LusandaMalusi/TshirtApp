@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -31,7 +29,7 @@ namespace TshirtApp
             Orders = await stuff.GetItemsAsync();
             BindingContext = this;
         }
-       
+
         private async void Button_Clicked(object sender, EventArgs e)
         {
             var current = Connectivity.NetworkAccess;
@@ -39,7 +37,12 @@ namespace TshirtApp
             {
                 await DisplayAlert("Connection", "Internet is working", "ok");
             }
+            if (current != NetworkAccess.Internet)
+            {
+                await DisplayAlert("Connection", "Internet is not working", "ok");
+            }
             var databaseContent = App.Database;
+
             Orders = await databaseContent.GetItemsAsync();
             var MyServerOrders = Orders.Select(x => new Tshirt()
             {
@@ -64,12 +67,24 @@ namespace TshirtApp
                 await DisplayAlert("Exception", ex.Message, "ok");
             }
 
-            await Navigation.PushAsync(new OrderList());
-            }
+            //await Navigation.PushAsync(new OrderList());
+        }
 
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
 
+        }
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OrderList());
+        }
+
+        private async void ButtonClicked(object sender, EventArgs e)
+        {
+            // await Navigation.PushAsync(new MapPage());
+            var location = new Xamarin.Essentials.Location(45.345535, -156.777399);
+            var options = new MapLaunchOptions { Name = "Angezwa" };
+            await Map.OpenAsync(location, options);
         }
     }
     }

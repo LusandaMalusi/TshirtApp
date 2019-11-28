@@ -12,7 +12,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Margin="10" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-                                <Label Text="Your Order" FontSize="Large" TextColor="Aqua"/> 
+                               <Label Text="Your Order" FontSize="Large" TextColor="Aqua"/> 
                                 <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
                                 <Label Text="{Binding Surname}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
                                 <Label Text="{Binding Gender}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
@@ -20,6 +20,14 @@
                                 <Label Text="{Binding Datetime}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
                                 <Label Text="{Binding Tshirtsize}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
                                 <Label Text="{Binding Tshirtcolor}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                <Label  Text="{Binding AddressPosition}" />
+                                
+                                <Button Text="Confirm Order"
+                                      Clicked="Button_Clicked">
+                                </Button>
+                                <Button Text="Shipping Adress"
+                                      Clicked="ButtonClicked">
+                                </Button>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

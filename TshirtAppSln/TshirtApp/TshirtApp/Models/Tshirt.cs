@@ -18,7 +18,7 @@ namespace TshirtApp
         public string Tshirtsize { get; set; }
         public DateTime Datetime { get; set; }
         public string Shippingadress { get; set; }
-
+        public string AddressPosition { get; set; }
     }
 
 

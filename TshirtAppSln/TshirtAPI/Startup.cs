@@ -25,7 +25,7 @@ namespace TshirtAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProductsContext>(opt =>
-              opt.UseInMemoryDatabase("ProductsList"));
+              opt.UseSqlServer(Configuration.GetConnectionString("TshirtDatabase")));
             services.AddControllers();
 
           
