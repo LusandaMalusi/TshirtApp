@@ -20,7 +20,6 @@ namespace TshirtAPI.Controllers
         {
             _context = context;
 
-            SeedData.Initialize(context);
         }
 
         // GET: api/Products

@@ -47,6 +47,11 @@ namespace TshirtApp
         {
             return database.DeleteAsync(item);
         }
+
+        public Task<List<Tshirt>> GetUnSubmittedOrders()
+        {
+            return database.Table<Tshirt>().Where(x => x.Posted == false).ToListAsync();
+        }
     }
 }
     

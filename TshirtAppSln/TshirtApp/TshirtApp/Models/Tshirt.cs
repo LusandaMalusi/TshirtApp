@@ -19,6 +19,7 @@ namespace TshirtApp
         public DateTime Datetime { get; set; }
         public string Shippingadress { get; set; }
         public string AddressPosition { get; set; }
+        public bool Posted { get; set; }
     }
 
 

@@ -43,7 +43,9 @@ namespace TshirtApp
             }
             var databaseContent = App.Database;
 
-            Orders = await databaseContent.GetItemsAsync();
+            Orders = await databaseContent.GetUnSubmittedOrders();
+           
+            
             var MyServerOrders = Orders.Select(x => new Tshirt()
             {
                 Name = x.Name,
@@ -52,7 +54,7 @@ namespace TshirtApp
                 Datetime = x.Datetime,
                 Tshirtcolor = x.Tshirtcolor,
                 Shippingadress = x.Shippingadress
-            });
+            }).ToList();
             var json = JsonConvert.SerializeObject(MyServerOrders);
             var client = new HttpClient();
             var url = "http://10.0.2.2:5000/products";
@@ -61,6 +63,11 @@ namespace TshirtApp
             {
                 var response = await client.PostAsync(url, content);
                 await DisplayAlert("Response Message", response.ReasonPhrase, "ok");
+                for (int i = 0; i < Orders.Count; i++)
+                {
+                    Orders[i].Posted = true;
+                    await databaseContent.SaveItemAsync(Orders[i]);
+                }
             }
             catch (Exception ex)
             {
@@ -83,7 +90,7 @@ namespace TshirtApp
         {
             // await Navigation.PushAsync(new MapPage());
             var location = new Xamarin.Essentials.Location(45.345535, -156.777399);
-            var options = new MapLaunchOptions { Name = "Angezwa" };
+            var options = new MapLaunchOptions { Name = "Lusanda" };
             await Map.OpenAsync(location, options);
         }
     }
